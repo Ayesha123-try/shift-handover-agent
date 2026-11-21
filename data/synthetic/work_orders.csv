@@ -1,0 +1,17 @@
+wo_id,line,machine,type,failure_mode,opened_at,closed_at,repair_min,status,due_date,linked_event_id,description
+WO-1001,L2,CNC-21,corrective,HDF,2026-11-15 17:06,2026-11-15 17:30,18,closed,,E04,"Over-temp alarm. Let spindle cool, cleaned fan grille, restarted. Filter looks dusty."
+WO-1002,L1,CNC-11,preventive,,2026-11-10 09:00,2026-11-16 07:00,55,closed,2026-11-16,E06,Quarterly spindle lubrication and inspection.
+WO-1003,L1,CNC-12,corrective,OSF,2026-11-16 10:46,2026-11-16 11:20,28,closed,,E07,"Overload on heavy cut. Tool was past wear limit. Changed tool, reduced depth of cut."
+WO-1004,L3,CNC-31,corrective,RNF,2026-11-17 09:16,2026-11-17 09:30,10,closed,,E09,Controller froze. Rebooted. No fault found in logs.
+WO-1005,L2,CNC-21,corrective,HDF,2026-11-18 02:31,2026-11-18 03:00,22,closed,,E10,"Over-temp again. Cooled, cleaned grille. Recommend filter replacement (see WO-1013)."
+WO-1006,L3,CNC-31,preventive,,2026-11-11 09:00,2026-11-18 06:45,42,closed,2026-11-18,E12,Way-cover and coolant system service.
+WO-1007,L1,CNC-11,corrective,PWF,2026-11-18 16:21,2026-11-18 17:10,41,closed,,E13,"Drive power fault. Reset drive, found loose motor cable connector, tightened."
+WO-1008,L2,CNC-21,corrective,HDF,2026-11-19 19:41,2026-11-19 20:15,26,closed,,E16,Over-temp third time this week. Spindle at 1290 rpm on product H. Filter clogged. Spare filter not in stock.
+WO-1009,L3,CNC-31,corrective,TWF,2026-11-20 03:06,2026-11-20 03:25,15,closed,,E17,End mill worn. Tool changed.
+WO-1010,L2,CNC-22,corrective,TWF,2026-11-20 12:11,2026-11-20 12:30,14,closed,,E18,Chipped drill. Tool changed. Tool life counter was not reset at last change.
+WO-1011,L2,CNC-21,corrective,HDF,2026-11-21 01:51,2026-11-21 02:30,30,closed,,E21,"Over-temp, longest stop yet. Temporary fix: cleaned filter with compressed air. Needs new filter."
+WO-1012,L2,CNC-22,corrective,TWF,2026-11-21 04:21,2026-11-21 04:45,18,closed,,E22,End mill broke at end of life. 18 parts with burrs scrapped. Tool life counter again not reset.
+WO-1013,L2,CNC-21,preventive,,2026-11-05 08:00,,0,open,2026-11-12,,Replace spindle cooling fan filter. OVERDUE: waiting for spare part.
+WO-1014,L1,CNC-12,preventive,,2026-11-13 08:00,2026-11-15 10:20,20,closed,2026-11-15,,Way lubrication check (done during break).
+WO-1015,L3,CNC-31,preventive,,2026-11-14 08:00,2026-11-17 13:40,15,closed,2026-11-17,,Coolant concentration check (done during break).
+WO-1016,L2,CNC-22,preventive,,2026-11-15 08:00,2026-11-18 13:35,25,closed,2026-11-18,,Tool magazine inspection (done during break).

@@ -1,0 +1,27 @@
+note_id,line,shift_date,shift,author_role,text
+N01,L1,2026-11-14,early,operator,"Changeover M to L took 20 min, fixture alignment was slow. Otherwise smooth."
+N02,L2,2026-11-14,late,operator,"Quick changeover to M, 15 min. CNC-21 fan sounds louder than usual."
+N03,L3,2026-11-14,night,operator,"Changeover to product H, 20 min. No issues."
+N04,L2,2026-11-15,late,operator,"Line 2 stopped 25 min, CNC-21 spindle over-temp alarm. Let it cool, maintenance cleaned the fan grille, restarted. Running product H at low rpm."
+N05,L1,2026-11-15,night,operator,"Changeover L to M on CNC-12, 15 min. All fine."
+N06,L1,2026-11-16,early,shift lead,"Planned lube and inspection on CNC-11 first hour, as scheduled. CNC-12 overload alarm at 10:45 on a heavy cut, tool was past its wear limit. 35 min stop, 9 parts scrapped."
+N07,L3,2026-11-16,late,operator,"Changeover H to L, 20 min."
+N08,L3,2026-11-17,early,operator,"CNC-31 controller froze at 09:15. Reboot fixed it, 15 min lost. Maintenance found nothing in the logs."
+N09,L2,2026-11-17,night,operator,"CNC-21 over-temp again at 02:30, 30 min stop. Shop is cold tonight but the spindle still got hot. Product H, about 1300 rpm."
+N10,L2,2026-11-17,night,maintenance tech,"CNC-21 fan filter is clogged. Cleaned the grille as a quick fix. The filter replacement work order WO-1013 is still open, no spare filter in stock."
+N11,L3,2026-11-18,early,shift lead,"Planned coolant and way-cover service on CNC-31, 45 min, done on time."
+N12,L2,2026-11-18,early,operator,"Changeover L to M on CNC-22, 20 min. 6 extra parts scrapped on first-off check after changeover."
+N13,L1,2026-11-18,late,operator,CNC-11 spindle drive power fault at 16:20. Line down 50 min. Maintenance found a loose motor cable connector.
+N14,L1,2026-11-19,early,operator,"Changeover to L, 15 min. Good shift."
+N15,L2,2026-11-19,late,operator,"Third CNC-21 over-temp this week, 35 min stop. Ran slower after restart to keep temperature down."
+N16,L2,2026-11-19,late,shift lead,"Escalated CNC-21 overheating to maintenance planner. Spare filter ordered, delivery unknown."
+N17,L3,2026-11-19,night,operator,"End mill on CNC-31 worn out at 03:05, 20 min for tool change."
+N18,L2,2026-11-20,early,operator,"CNC-22 drill chipped at 12:10, 20 min stop. Tool life counter had not been reset at the last tool change."
+N19,L1,2026-11-20,late,operator,"Changeover L to M, 20 min."
+N20,L2,2026-11-20,night,operator,"Changeover to product H on CNC-22 at start of shift, 20 min."
+N21,L2,2026-11-20,night,operator,"Line 2 stopped 40 min at 01:50, CNC-21 spindle overheating again. Cooled and restarted. Ran at 85% feed override for about an hour after restart."
+N22,L2,2026-11-20,night,maintenance tech,Cleaned CNC-21 filter with compressed air. Temporary only. Spindle temp will climb again within 1-2 shifts on product H. New filter needed (WO-1013).
+N23,L2,2026-11-20,night,operator,"CNC-22 end mill broke at 04:20, 25 min stop. 18 parts with burrs scrapped. Tool life counter not reset again."
+N24,L3,2026-11-20,night,operator,"Changeover L to M at 23:30, 15 min. Quiet night otherwise."
+N25,L1,2026-11-20,night,operator,No stops. CNC-11 running well since the cable fix.
+N26,L3,2026-11-20,late,operator,No stops. Coolant level topped up.

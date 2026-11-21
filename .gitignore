@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+logs/
+evals/results/
+drafts/work_orders/*.json
+drafts/work_orders/approved/
+drafts/work_orders/rejected/
+data/raw/*.csv

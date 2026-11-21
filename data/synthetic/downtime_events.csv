@@ -1,0 +1,24 @@
+event_id,line,machine,shift_date,shift,start,duration_min,category,failure_mode,work_order_id,description
+E01,L1,CNC-11,2026-11-14,early,2026-11-14 08:10,20,changeover,,,Changeover product M to L
+E02,L2,CNC-21,2026-11-14,late,2026-11-14 15:30,15,changeover,,,Changeover product L to M
+E03,L3,CNC-31,2026-11-14,night,2026-11-15 01:20,20,changeover,,,Changeover product M to H
+E04,L2,CNC-21,2026-11-15,late,2026-11-15 17:05,25,unplanned_failure,HDF,WO-1001,"Spindle over-temperature alarm, machine stopped"
+E05,L1,CNC-12,2026-11-15,night,2026-11-15 23:40,15,changeover,,,Changeover product L to M
+E06,L1,CNC-11,2026-11-16,early,2026-11-16 06:00,60,planned_maintenance,,WO-1002,Planned spindle lubrication and inspection
+E07,L1,CNC-12,2026-11-16,early,2026-11-16 10:45,35,unplanned_failure,OSF,WO-1003,"Overload alarm on heavy cut, worn tool"
+E08,L3,CNC-31,2026-11-16,late,2026-11-16 18:00,20,changeover,,,Changeover product H to L
+E09,L3,CNC-31,2026-11-17,early,2026-11-17 09:15,15,unplanned_failure,RNF,WO-1004,"Controller froze, no clear cause, reboot"
+E10,L2,CNC-21,2026-11-17,night,2026-11-18 02:30,30,unplanned_failure,HDF,WO-1005,"Spindle over-temperature alarm, machine stopped"
+E11,L2,CNC-22,2026-11-17,night,2026-11-18 04:10,15,changeover,,,Changeover product M to L
+E12,L3,CNC-31,2026-11-18,early,2026-11-18 06:00,45,planned_maintenance,,WO-1006,Planned way-cover and coolant system service
+E13,L1,CNC-11,2026-11-18,late,2026-11-18 16:20,50,unplanned_failure,PWF,WO-1007,"Spindle drive power fault, drive reset and cable check"
+E14,L2,CNC-22,2026-11-18,early,2026-11-18 11:00,20,changeover,,,Changeover product L to M
+E15,L1,CNC-12,2026-11-19,early,2026-11-19 07:30,15,changeover,,,Changeover product M to L
+E16,L2,CNC-21,2026-11-19,late,2026-11-19 19:40,35,unplanned_failure,HDF,WO-1008,"Spindle over-temperature alarm, machine stopped"
+E17,L3,CNC-31,2026-11-19,night,2026-11-20 03:05,20,unplanned_failure,TWF,WO-1009,"End mill worn out, tool change"
+E18,L2,CNC-22,2026-11-20,early,2026-11-20 12:10,20,unplanned_failure,TWF,WO-1010,"Drill chipped, tool change"
+E19,L1,CNC-11,2026-11-20,late,2026-11-20 14:30,20,changeover,,,Changeover product L to M
+E20,L2,CNC-22,2026-11-20,night,2026-11-20 22:15,20,changeover,,,Changeover product M to H
+E21,L2,CNC-21,2026-11-20,night,2026-11-21 01:50,40,unplanned_failure,HDF,WO-1011,"Spindle over-temperature alarm, machine stopped"
+E22,L2,CNC-22,2026-11-20,night,2026-11-21 04:20,25,unplanned_failure,TWF,WO-1012,End mill broke at end of tool life
+E23,L3,CNC-31,2026-11-20,night,2026-11-20 23:30,15,changeover,,,Changeover product L to M

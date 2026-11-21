@@ -1,0 +1,22 @@
+[
+  {"id": "Q01", "question": "What was the OEE of Line 2 last night?",
+   "type": "number", "expected": 56.7, "tolerance": 0.5, "unit": "%"},
+  {"id": "Q02", "question": "Which failure type caused the most unplanned downtime across the whole plant this week?",
+   "type": "text", "any_of": ["HDF", "heat dissipation"]},
+  {"id": "Q03", "question": "What is the MTTR of Line 2 over the week, in minutes?",
+   "type": "number", "expected": 21.3, "tolerance": 0.5, "unit": "min"},
+  {"id": "Q04", "question": "What is the MTBF of Line 2 over the week, in hours?",
+   "type": "number", "expected": 25.6, "tolerance": 0.3, "unit": "h"},
+  {"id": "Q05", "question": "What percentage of all work orders this week were planned (preventive)?",
+   "type": "number", "expected": 37.5, "tolerance": 0.5, "unit": "%"},
+  {"id": "Q06", "question": "Which machine had the most unplanned downtime this week?",
+   "type": "text", "any_of": ["CNC-21"]},
+  {"id": "Q07", "question": "On Line 2 last night, which OEE factor had the biggest loss in minutes: availability, performance or quality?",
+   "type": "text", "any_of": ["performance"], "none_of": ["availability had the biggest", "biggest loss was availability"]},
+  {"id": "Q08", "question": "What was the scrap rate on Line 2 last night?",
+   "type": "number", "expected": 7.6, "tolerance": 0.2, "unit": "%"},
+  {"id": "Q09", "question": "Which preventive work order is overdue, and on which machine?",
+   "type": "text", "all_of": ["WO-1013", "CNC-21"]},
+  {"id": "Q10", "question": "According to the SOP, at what feed override should the first parts run after restarting from a spindle over-temperature alarm, and which SOP section says so?",
+   "type": "text", "all_of": ["85", "SOP-HDF-01", "3.5"]}
+]

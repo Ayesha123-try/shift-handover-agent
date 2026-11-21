@@ -1,0 +1,6 @@
+machine,line,predicted_rul_hours,model_confidence,as_of,source
+CNC-11,L1,1850,0.8,2026-11-21,placeholder in C-MAPSS model output shape
+CNC-12,L1,1420,0.75,2026-11-21,placeholder in C-MAPSS model output shape
+CNC-21,L2,140,0.7,2026-11-21,placeholder in C-MAPSS model output shape
+CNC-22,L2,960,0.72,2026-11-21,placeholder in C-MAPSS model output shape
+CNC-31,L3,2300,0.82,2026-11-21,placeholder in C-MAPSS model output shape

@@ -1,0 +1,19 @@
+{
+  "_note": "ASSUMED values for a fictional plant. They are not real figures from any company. Change them and the reports change.",
+  "plant_name": "Demo Plant (fictional)",
+  "oee_target": 0.75,
+  "world_class_oee": 0.85,
+  "shift_length_min": 480,
+  "planned_break_min": 30,
+  "shifts": {
+    "early": {"start": "06:00", "end": "14:00"},
+    "late": {"start": "14:00", "end": "22:00"},
+    "night": {"start": "22:00", "end": "06:00"}
+  },
+  "lines": {
+    "L1": {"machines": ["CNC-11", "CNC-12"], "ideal_cycle_time_s": 40, "production_value_eur_per_hour": 3200},
+    "L2": {"machines": ["CNC-21", "CNC-22"], "ideal_cycle_time_s": 60, "production_value_eur_per_hour": 4500},
+    "L3": {"machines": ["CNC-31"], "ideal_cycle_time_s": 50, "production_value_eur_per_hour": 2800}
+  },
+  "planned_maintenance_good_threshold": 0.8
+}
